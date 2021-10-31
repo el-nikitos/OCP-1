@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:OCP-1-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -1339,6 +1339,18 @@ F 1 "Индикатор_7сегм_TOS-F2101AMG" H 27650 14900 50  0001 C CNN
 F 2 "N_VD_HL:LED-7SEGM-10x6,9" H 27600 15150 50  0001 C CNN
 F 3 "" V 31150 14550 50  0001 C CNN
 	1    27500 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements_2020:UBS-tupe-C-105450-0101&упрощенная XS1
+U 1 1 617F4717
+P 5050 12500
+F 0 "XS1" H 5475 12900 138 0000 L CNN
+F 1 "UBS-tupe-C-105450-0101&упрощенная" H 5250 13200 50  0001 C CNN
+F 2 "" H 5050 12500 50  0001 C CNN
+F 3 "" H 5050 12500 50  0001 C CNN
+F 4 "https://www.chipdip.ru/product/105450-0101-molex" H 5050 13100 50  0001 C CNN "LINK"
+	1    5050 12500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

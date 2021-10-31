@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 60)
@@ -487,9 +487,9 @@
   )
 
   (module N_VD_HL:LED-7SEGM-10x6,9 (layer F.Cu) (tedit 617E6637) (tstamp 617EB81D)
-    (at 155.86 124.25)
+    (at 109 120)
     (path /619A677D)
-    (fp_text reference HL6 (at 5.6 -3.6) (layer F.SilkS)
+    (fp_text reference HL6 (at 2.64 -6.75) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_text value Индикатор_7сегм_TOS-F2101AMG (at 1.7 15.2) (layer F.Fab)
@@ -535,9 +535,9 @@
   )
 
   (module N_VD_HL:LED-7SEGM-10x6,9 (layer F.Cu) (tedit 617E6637) (tstamp 617EB803)
-    (at 147.24 124.25)
+    (at 101.5 120)
     (path /6199C950)
-    (fp_text reference HL5 (at 5.6 -3.6) (layer F.SilkS)
+    (fp_text reference HL5 (at 2.51 -6.75) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_text value Индикатор_7сегм_TOS-F2101AMG (at 1.7 15.2) (layer F.Fab)
@@ -583,9 +583,9 @@
   )
 
   (module N_VD_HL:LED-7SEGM-10x6,9 (layer F.Cu) (tedit 617E6637) (tstamp 617EB7E9)
-    (at 138.62 124.25)
+    (at 94 120)
     (path /6199AF59)
-    (fp_text reference HL4 (at 5.6 -3.6) (layer F.SilkS)
+    (fp_text reference HL4 (at 2.38 -6.75) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_text value Индикатор_7сегм_TOS-F2101AMG (at 1.7 15.2) (layer F.Fab)
@@ -631,9 +631,9 @@
   )
 
   (module N_VD_HL:LED-7SEGM-10x6,9 (layer F.Cu) (tedit 617E6637) (tstamp 617EB7CF)
-    (at 130 124.25)
+    (at 86.5 120)
     (path /6199804A)
-    (fp_text reference HL3 (at 5.6 -3.6) (layer F.SilkS)
+    (fp_text reference HL3 (at 2.5 -6.75) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_text value Индикатор_7сегм_TOS-F2101AMG (at 1.7 15.2) (layer F.Fab)
@@ -679,7 +679,7 @@
   )
 
   (module N_X:Кнопка_FSMSM (layer F.Cu) (tedit 5C6ED76C) (tstamp 617E9799)
-    (at 47.5 83.25)
+    (at 107.5 135)
     (path /61930A89)
     (fp_text reference K4 (at 7 -3.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -707,7 +707,7 @@
   )
 
   (module N_X:Кнопка_FSMSM (layer F.Cu) (tedit 5C6ED76C) (tstamp 617E978B)
-    (at 34.5 88.5)
+    (at 77.5 135)
     (path /61938538)
     (fp_text reference K3 (at 7 -3.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -735,9 +735,9 @@
   )
 
   (module N_X:Кнопка_FSMSM (layer F.Cu) (tedit 5C6ED76C) (tstamp 617E975B)
-    (at 34.5 83.25)
+    (at 77.5 105)
     (path /6193852A)
-    (fp_text reference K1 (at 7 -3.1) (layer F.SilkS)
+    (fp_text reference K1 (at 10 -2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value кнопка (at 0.3 2.5) (layer F.Fab)
@@ -827,7 +827,7 @@
   )
 
   (module N_X:Кнопка_FSMSM (layer F.Cu) (tedit 5C6ED76C) (tstamp 617E8542)
-    (at 63.75 83.5)
+    (at 107.5 105)
     (path /6190C558)
     (fp_text reference K5 (at 7 -3.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2810,6 +2810,8 @@
     )
   )
 
+  (gr_line (start 120 100) (end 75 140) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 75 100) (end 120 140) (layer Dwgs.User) (width 0.15))
   (dimension 40 (width 0.15) (layer Dwgs.User)
     (gr_text "40,000 мм" (at 68.7 120 90) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
